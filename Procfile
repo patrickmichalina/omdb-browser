@@ -1,1 +1,1 @@
-web: ts-node src/index.ts --prod
+web: npm run start.prod
