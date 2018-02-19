@@ -1,6 +1,6 @@
 const most = (window as any).most
 const IMG_PLACEHOLDER = 'https://www.surefitlab.com/media/catalog/product/cache/3/image/500x/8bffd1f41f6037eb62ae19998042eea4/placeholder/default/Image_Missing_placeholder.jpg'
-const API = 'http://www.omdbapi.com/?apikey=aba065d3'
+const API = 'https://www.omdbapi.com/?apikey=aba065d3'
 const MAIN_ID = 'results'
 const DEBOUNCE = 150
 const COLUMNS = 4
