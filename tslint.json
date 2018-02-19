@@ -1,0 +1,52 @@
+{
+  "rules": {
+    "i18n": [
+      false
+    ],
+    "newline-per-chained-call": [
+      false
+    ],
+    "no-unnecessary-class": [
+      false
+    ],
+    "no-var-keyword": true,
+    "no-let": false,
+    "no-parameter-reassignment": false,
+    "readonly-keyword": false,
+    "readonly-array": false,
+    "no-object-mutation": false,
+    "no-method-signature": false,
+    "typedef": [
+      false
+    ],
+    "space-within-parens": [
+      false
+    ],
+    "object-literal-key-quotes": [
+      false
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "align": [
+      false
+    ],
+    "no-console": [
+      false
+    ],
+    "curly": false,
+    "member-ordering": [
+      false
+    ],
+    "member-access": [
+      false,
+      "no-public"
+    ],
+    "newline-before-return": false,
+    "use-view-encapsulation": false,
+    "array-type": [
+      false
+    ]
+  }
+}

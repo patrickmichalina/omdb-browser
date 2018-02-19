@@ -1,0 +1,12 @@
+extends blocks/layout.pug
+block scripts
+  script(src="https://unpkg.com/most/dist/most.min.js")
+block content
+  h1 OMDB Browser
+  div(id="modal" class="modal")
+    div(class="modal-content")
+      span(class="close") &times;
+  label(for="search")
+  input(id="search" placeholder="search for your movie" autofocus)
+  link(href="css/home.css" rel="stylesheet")
+  script(src="js/home.js")
