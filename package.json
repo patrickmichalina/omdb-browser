@@ -41,7 +41,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run start.dev",
     "start.dev": "concurrently  \"tsc -w -p src/public/js\"  \"nodemon\" \"cpx src/public/css/** dist/css --watch\" ",
-    "start.prod": "ts-node src/index.ts",
+    "start.prod": "ts-node src/server.ts",
     "build-ts": "tsc -p src/public/js",
     "copy.css": "cpx src/public/css/** dist/css",
     "heroku-postbuild": "npm run build-ts && npm run copy.css"
